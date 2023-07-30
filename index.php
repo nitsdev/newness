@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
+                        <a href="components.php" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
     <!-- Page Header -->
     <header class="header">
         <div class="overlay">
-            <h1 class="subtitle">Unlock the Power of Digital Marketing: Experience a Rapid Transformation of Your Business in Just 1 Month with Our Expert Services!</h1>
+            <h1 class="subtitle">Unlock the Power of Digital Marketing: Experience a Rapid Transformation of <br><br>Your Business in Just 1 Month with Our Expert Services!</h1>
             <h1 class="title">Newness Marketing Technology</h1>  
         </div>  
         <div class="shape">
