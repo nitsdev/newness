@@ -1,6 +1,8 @@
+<?php
+include("./connect.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -46,9 +48,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="components.php" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -147,25 +147,24 @@
                 <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
                     <h6 class="section-title mb-0">About Our Company</h6>
                     <h6 class="section-subtitle mb-4"></h6>
-                    <p >Rinkesh Chaturvedi, founder and owner of Newness Marketing Technology, has a unique perspective on business and digital marketing.</p>
-                    <p>With years of experience in client servicing for IndiaMART InterMESH Limited, Rinkesh understands what it takes to succeed in the competitive world of business.</p>
-                    <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
+                    <p >In the dynamic world of business, where aesthetics meet strategy, the collaboration between marketing and design is paramount. Enter our versatile and comprehensive Marketing and Design Team. </p>
+                    <p>A collective of creative minds and strategic thinkers dedicated to transforming your ideas into captivating experiences.</p>
+                    <img src="assets/imgs/about.png" alt="" class="w-100 mt-3 shadow-sm">
                 </div>
                 <div class="col-md-6 pl-md-5">
                     <div class="row">
                         <div class="col-6">
-                            <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
+                            <img src="assets/imgs/about-1.png" alt="" class="w-100 shadow-sm">
                         </div>
                         <div class="col-6">
-                            <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
+                            <img src="assets/imgs/about-2.png" alt="" class="w-100 shadow-sm">
                         </div>
                         <div class="col-12 mt-4">
-                            <p>Drawing on his experience working with small and medium businesses, Rinkesh tailors his services to meet their specific needs</p>
-                            <p><b>At IndiaMART InterMESH Limited, Rinkesh worked closely with hundreds of small and medium businesses, helping them navigate the complexities of the digital landscape and connect with new customers.
-                            </b><br>
+                            <p>We are your one-stop destination for a full spectrum of marketing and design services. From conceptualization to execution, our team combines the art of design with the science of marketing to deliver holistic solutions tailored to your brand's needs.</p>
+                            <p><b>Strategic Marketing Planning:</b> Our marketing strategists work closely with you to develop data-driven marketing plans that align with your business goals and resonate with your target audience.<br>
                             </p>
-                            <p>Rinkesh realized that many of these businesses struggled to make the most of the tools and technologies available to them, often due to a lack of knowledge or resources.</p>
-                            <p>Motivated to help these businesses thrive, Rinkesh founded Newness Marketing Technology, a digital marketing agency that provides comprehensive solutions to businesses of all sizes.</p>
+                            <p><b>Web Design and Development:</b> Crafting eye-catching websites with user-friendly interfaces that encapsulate your brand's essence is our forte.</p>
+                            <p>Our integrated approach ensures seamless coordination between marketing strategies and design aesthetics, resulting in a consistent brand experience.</p>
                         </div>
                     </div>
                 </div>
@@ -179,66 +178,66 @@
         <div class="container">
             <h6 class="section-title text-center">Our Portfolio</h6>
             <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
-            <div class="filters">
+            <div class="filters text-center">
                 <a href="#" data-filter=".new" class="active">
-                    New
+                    All Services
                 </a>
                 <a href="#" data-filter=".advertising">
-                    Advertising
+                    Web Development
                 </a>
-                <a href="#" data-filter=".branding">
-                    Branding
+                <a href="#" data-filter=".branding" class="mt-2">
+                    SEO
                 </a>
                 <a href="#" data-filter=".web">
-                    Web
+                    Digital Marketing
                 </a>
                 
             </div>
             <div class="portfolio-container"> 
                 <div class="col-md-6 col-lg-4 web new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <img src="assets/imgs/all1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/all1.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Digital Marketing</h6>
+                                <p class="subtitle">Boost Your Online Visibility</p>
                             </div>
                         </div>   
                     </div>             
                 </div>
                 <div class="col-md-6 col-lg-4 web new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <img src="assets/imgs/digi1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/digi1.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Digital Marketing</h6>
+                                <p class="subtitle">Boost Your Online Visibility</p>
                             </div>
                         </div> 
                     </div>                         
                 </div>
                 <div class="col-md-6 col-lg-4 advertising new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                        <img src="assets/imgs/web1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/web1.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Web Development</h6>
+                                <p class="subtitle">Complete Website Development</p>
                             </div>
                         </div>    
                     </div>              
                 </div> 
                 <div class="col-md-6 col-lg-4 web">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <img src="assets/imgs/digi2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/digi2.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Digital Marketing</h6>
+                                <p class="subtitle">Boost Your Online Visibility</p>
                             </div>
                         </div>
                     </div>                                                     
@@ -246,48 +245,48 @@
 
                 <div class="col-md-6 col-lg-4 advertising"> 
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                        <img src="assets/imgs/web2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/web2.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Web Development</h6>
+                                <p class="subtitle">Complete Website Development</p>
                             </div>
                         </div>
                     </div>                                                       
                 </div> 
                 <div class="col-md-6 col-lg-4 web new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                        <img src="assets/imgs/digi3.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/digi3.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Digital Marketing</h6>
+                                <p class="subtitle">Boost Your Online Visibility</p>
                             </div>
                         </div>
                     </div>                                                     
                 </div>
                 <div class="col-md-6 col-lg-4 advertising new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                        <img src="assets/imgs/web3.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/web3.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Web Development</h6>
+                                <p class="subtitle">Complete Website Development</p>
                             </div>
                         </div>
                     </div>                                                       
                 </div> 
                 <div class="col-md-6 col-lg-4 advertising new"> 
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                        <img src="assets/imgs/web4.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/web4.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Web Development</h6>
+                                <p class="subtitle">Complete Website Development</p>
                             </div>
                         </div>
                     </div>
@@ -295,60 +294,60 @@
                 </div> 
                 <div class="col-md-6 col-lg-4 branding new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                        <img src="assets/imgs/seo1.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/seo1.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">SEO<br>Search Engine Optimization</h6>
+                                <p class="subtitle">Increase Website Search Position</p>
                             </div>
                         </div> 
                     </div>
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                        <img src="assets/imgs/seo2.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/seo2.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">SEO<br>Search Engine Optimization</h6>
+                                <p class="subtitle">Increase Website Search Position</p>
                             </div>
                         </div>
                     </div>                                                     
                 </div> 
                 <div class="col-md-6 col-lg-4 branding new">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                        <img src="assets/imgs/seo3.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/seo3.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">SEO<br>Search Engine Optimization</h6>
+                                <p class="subtitle">Increase Website Search Position</p>
                             </div>
                         </div>
                     </div>                                                    
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                        <img src="assets/imgs/seo4.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/seo4.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">SEO<br>Search Engine Optimization</h6>
+                                <p class="subtitle">Increase Website Search Position</p>
                             </div>
                         </div>
                     </div>                                                      
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                        <img src="assets/imgs/web4.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/web4.png"></a>
                             <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">SEO<br>Search Engine Optimization</h6>
+                                <p class="subtitle">Increase Website Search Position</p>
                             </div>
                         </div>
                     </div>                                                   
@@ -358,7 +357,7 @@
     </section>
     <!-- End of portfolio section -->
 
-    <!-- Blog Section -->
+    <!-- Blog Section 
     <section class="section" id="blog">
         <div class="container">
             <h6 class="section-title mb-0 text-center">Latest Articles</h6>
@@ -398,9 +397,9 @@
             </div>
         </div>
     </section>
-    <!-- End of Blog Section -->
+    End of Blog Section -->
 
-    <!-- Testmonial Section -->
+    <!-- Testmonial Section
     <section class="section" id="testmonial">
         <div class="container">
             <h6 class="section-title text-center mb-0">Testmonials</h6>
@@ -451,7 +450,7 @@
             </div>
         </div>
     </section>
-    <!-- End of Testmonial Section -->
+    End of Testmonial Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="section has-img-bg pb-0">
@@ -469,7 +468,7 @@
                     <p></p>
                 </div>
                 <div class="col-md-7">
-                    <form>
+                    <form action="">
                         <h4 class="mb-4">Drop Us A Line</h4>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
@@ -481,12 +480,15 @@
                             <div class="form-group col-sm-4">
                                 <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
                             </div>
-                            <div class="form-group col-12">
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="contact" placeholder="Contact No.">
+                            </div>
+                            <div class="form-group col-8">
                                 <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
 
                             </div>
                             <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3" name="send">Send</button>
                             </div>                          
                         </div>                          
                     </form>
@@ -515,3 +517,84 @@
 
 </body>
 </html>
+<?php if (isset($_POST['send'])) {
+    $name = $_POST['name'];
+    $Email = $_POST['Email'];
+    $subject = $_POST['subject'];
+    $contact = $_POST['contact'];
+    $message = $_POST['message'];
+
+    //insert query
+    $insert_query = "insert into `enquiry` (name,Email,subject,contact,date,message) values ('$name','$Email','$subject','$contact','$message')";
+    $result_query = mysqli_query($con, $insert_query);
+
+    if ($result_query) {
+        $name = $_POST['name'];
+        $Email = $_POST['Email'];
+        $subject = $_POST['subject'];
+        $contact = $_POST['contact'];
+        $message = $_POST['message'];
+        $toEmail = 'nites1608@gmail.com';
+        $subject = 'Enquiry';
+        $message = '
+<html>
+<head>
+<title>Thank You for Enquiry</title>
+</head>
+<body>
+<p>Dear '. $name .',<br>
+
+We are thrilled that you have chosen to us! We appreciate your trust in our company and are committed to providing you with the best possible service.<br><br>
+
+Once again, thank you for choosing our company for your needs. We look forward to serving you and exceeding your expectations!</p><br><br>
+
+</body>
+</html>
+';
+
+$message1 = '
+<html>
+<head>
+<title>Enquiry Details</title>
+</head>
+<body>
+
+<table>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Product</th>
+<th>Purchased at</th>
+<th>Purchased from</th>
+</tr>
+<tr>
+<td>'. $name .'</td>
+<td>'. $Email .'</td>
+<td>'. $subject .'</td>
+<td>'. $contact .'</td>
+<td>'. $message .'</td>
+</tr>
+</table>
+</body>
+</html>
+';
+        
+            // Always set content-type when sending HTML email
+$headers = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type:text/html;charset=UTF-8' . "\r\n";
+
+// More headers
+$headers .= 'From: <newnessmarketing.com>' . "\r\n";
+$headers .= 'Cc: newnessmarketing.com' . "\r\n";
+            
+        //echo $mailHeaders;
+        if (mail($user_email,$subject,$message,$headers)) {
+            $message = 'Sent successfully';
+        }
+        if (mail($toEmail, $subject,$message1,$headers)) {
+            $message = 'Sent successfully';
+        }
+
+        echo "<script>window.open('#','_self')</script>";
+    }
+} ?>
